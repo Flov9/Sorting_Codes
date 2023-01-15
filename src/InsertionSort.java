@@ -6,6 +6,7 @@
 - stable
 - works good for array that is partially sorted
 - takes part in hybrid sorting algo (combining other sorting algo)
+- time complexity : worst case - O(n2) / best case - O(n)
  */
 
 import java.util.Arrays;

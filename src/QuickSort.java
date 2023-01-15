@@ -17,7 +17,7 @@ import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr = {5, 4, 3, 2, 1};
-        quick(arr, 0, arr.length - 1);
+        quicksort(arr, 0, arr.length - 1);
 
         System.out.println(Arrays.toString(arr));
     }
@@ -66,11 +66,11 @@ public class QuickSort {
         int start = low;
         int end = high;
 
-        while (low <= high) {
-            while (arr[start] <= pivot) {
+        while (start < end) {
+            while (start <= high && arr[start] <= pivot) {
                 start++;
             }
-            while (arr[end] > pivot) {
+            while (end >= low && arr[end] > pivot) {
                 end--;
             }
 
