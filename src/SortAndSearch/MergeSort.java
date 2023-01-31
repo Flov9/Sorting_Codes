@@ -1,3 +1,4 @@
+package SortAndSearch;
 /*
 - time complexity : O(n log n)
 - divide arrays into 2 part and use recursion to sort the 2 parts and ultimately merge together

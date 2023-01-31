@@ -1,3 +1,4 @@
+package SortAndSearch;
 /*
 - good if the array is sorted and the array.length is big
 - time complexity : worst case - O(log n) / best case - O(1)

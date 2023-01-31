@@ -1,3 +1,4 @@
+package SortAndSearch;
 /*
 - aka sinking sort/exchange sort
 - with every pass the nth largest element is at the nth pos from the end (coz already sorted at end)

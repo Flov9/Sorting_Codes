@@ -1,3 +1,4 @@
+package SortAndSearch;
 /*
 - implements a gap value
 - decrement the gap value by every pass

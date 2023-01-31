@@ -1,3 +1,4 @@
+package SortAndSearch;
 /*
 - the number of elements that is going to be sorted is increment by 1 every iteration ( from beginning)
 - for every index: put that index element at the correct index at LHS

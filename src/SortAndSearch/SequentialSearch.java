@@ -1,5 +1,6 @@
+package SortAndSearch;
 /*
-- time complexity : worst case - O(1) / best case - O(n)
+- time complexity : worst case - O(n) / best case - O(1)
  */
 
 public class SequentialSearch {
@@ -9,10 +10,6 @@ public class SequentialSearch {
 
     static int sequential(int[] arr, int target) {
         int n = arr.length;
-
-        if (n == 0) {
-            return -1;
-        }
 
         for (int i = 0; i < n; i++) {
             if (arr[i] == target) {
